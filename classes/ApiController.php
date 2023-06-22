@@ -53,6 +53,7 @@ class ApiController extends Controller
 
         // Handle error
         App::error(function(\Exception $e) {
+            // header("Access-Control-Allow-Origin: *");
             $trace = $e->getTraceAsString();
 
             $error = [
