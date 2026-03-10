@@ -8,11 +8,11 @@ class Plugin extends PluginBase
     public function boot()
     {
         // Register Cors
-        App::register('\Fruitcake\Cors\CorsServiceProvider');
+        // App::register('\Fruitcake\Cors\CorsServiceProvider');
 
         // Add cors middleware
-        $this->app['Illuminate\Contracts\Http\Kernel']
-            ->prependMiddleware(\Fruitcake\Cors\HandleCors::class);
+        // $this->app['Illuminate\Contracts\Http\Kernel']
+        //     ->prependMiddleware(\Fruitcake\Cors\HandleCors::class);
 
     }
 

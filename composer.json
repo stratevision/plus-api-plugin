@@ -1,11 +1,13 @@
 {
-    "name": "sv/api-plugin",
-    "description": "Base API Plugin for OctoberCMS.",
-    "type": "october-plugin",
-    "keywords": ["october", "api"],
-    "require": {
-        "php": ">=7.2.9",
-        "league/fractal": "^0.19",
-        "fruitcake/laravel-cors": "^2.0"
-    }
+  "name": "sv/api-plugin",
+  "description": "Base API Plugin for OctoberCMS.",
+  "type": "october-plugin",
+  "keywords": [
+    "october",
+    "api"
+  ],
+  "require": {
+    "php": "^8.2",
+    "league/fractal": "^0.19"
+  }
 }
